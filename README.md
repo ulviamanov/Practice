@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+1)	Erstelle ein Laravel Projekt
+2)	Bau eine HTML-Seite in diesem Projekt, bei der Anhänge mittels eines AJAX Requests hochgeladen werden können. Das Ergebnis (Fehler/Erfolg) des Uploads soll in einem DIV auf der Seite dargestellt werden, ohne dass die Seite neu geladen wird.
+3)	Metadaten (Name, Größe, Mime-Type) der hochgeladenen Datei sollen in einer Tabelle in der Datenbank gespeichert werden. Die Datei selbst soll im Dateisystem abgelegt werden. Eine Verknüpfung zwischen Datenbankeintrag und Datei soll bestehen.
+4)	Erstelle die Models FIRMA (id, name, city, country) und PROJEKT (id, company_id, name, start, end, budget) unter der Nutzung von laravel Migrations und Eloquent. Fülle Die Tabellen per Skript mit Zufallsdaten, so dass am Ende 100 Firmen mit jeweils 3-6 Projekten bestehen.
+5)	Bau eine HTML-Seite die ein Formular mit zwei Datumsfeldern und einem Button beinhaltet.  Wenn der Button gedrückt wird, sollen alle Firmen angezeigt werden, mit den Projekten, die im gewählten Zeitraum aktiv waren. 
+6)	Zippe das Projekt und schicke es zurück.
+
